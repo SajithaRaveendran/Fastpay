@@ -447,3 +447,107 @@ workking #working {
 }
 
 /* #banking */
+
+
+footer { 
+
+}
+
+footer section.wrapper { 
+
+}
+
+footer section.platform { 
+  display: flex;
+  justify-content: space-between;
+  background: #F8F8FA;
+  padding: 100px;
+
+}
+
+footer section.platform div.one { 
+  width: 20%;
+
+}
+
+footer section.platform div.one div.fastpay {
+
+width: 65%;
+}
+
+footer section.platform div.one div.fastpay img {
+
+display: block;
+
+width: 100%;
+}
+
+footer section.platform div.one p {
+  color: #888398;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer section.platform div.one ul { 
+  display: flex;
+
+}
+
+footer section.platform div.one ul li {
+
+margin-right: 33px;
+}
+
+footer section.platform div.one ul li span { 
+  background: #888398;
+
+}
+
+footer section.platform div.one ul li span img { 
+  display: block;
+  width: 100%;
+}
+
+footer section.platform div.two { 
+
+}
+
+footer section.platform div.two h4 { 
+  margin-bottom: 10px;
+
+}
+
+footer section.platform div.two h6 { 
+  margin-bottom: 10px;
+  color: #888398;
+  font-size: 14px;
+
+}
+footer section.platform div.three { 
+
+}
+footer section.platform div.three h4{
+  margin-bottom: 10px;
+
+}
+footer section.platform div.three h6 { 
+  margin-bottom: 10px;
+  color: #888398;
+  font-size: 14px;
+
+}
+
+footer section.platform div.four { 
+
+}
+footer section.platform div.four h4{
+  margin-bottom: 10px;
+
+}
+footer section.platform div.four h6 { 
+  margin-bottom: 10px;
+  color: #888398;
+  font-size: 14px;
+
+}
