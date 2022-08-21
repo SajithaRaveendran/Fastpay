@@ -70,6 +70,7 @@ a:hover,
 p {
   line-height: 1.6em;
   font-size: 16px;
+  color: #888398;
 }
 .hidden {
   display: none;
@@ -100,39 +101,30 @@ header section.head ul li a {
   color: #888398;
   font-size: 20px;
 }
-
 header section.head div.left {
 }
-
 header section.head div.left h1 {
 }
-
 header section.head div.left h1 a {
 }
-
 header section.head div.left h1 a img {
   display: block;
   width: 100%;
 }
-
 header section.head div.middle {
 }
-
 header section.head div.middle nav {
 }
-
 header section.head div.middle nav ul {
   display: flex;
   justify-content: space-between;
 }
-
 header section.head div.middle nav ul li {
   margin-right: 40px;
 }
 header section.head div.middle nav ul li:last-child {
   margin-right: 0px;
 }
-
 header section.head div.middle nav ul li a {
 }
 header section.head div.middle nav ul li a:hover {
@@ -140,15 +132,13 @@ header section.head div.middle nav ul li a:hover {
   border-bottom: 3px solid #e45f83;
   font-weight: 500;
 }
-
 header section.head div.right {
 }
-
 header section.head div.right ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
 header section.head div.right ul li {
   margin-right: 40px;
 }
@@ -166,39 +156,33 @@ header section.head div.right ul li a.button {
 }
 #spotlight section.wrapper {
 }
-
 #spotlight section.container {
   display: flex;
   padding: 10px 0 100px;
 }
-
 #spotlight section.container div.left {
   background: #f8f8fa;
   width: 46%;
   padding: 141px 84px;
   border-radius: 8px 0 0 8px;
 }
-
 #spotlight section.container div.left small {
   color: #888398;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
 }
-
 #spotlight section.container div.left h3 {
-  font-size: 70px;
+  font-size: 58px;
   font-weight: bolder;
   font-family: "Gordita";
   margin-bottom: 20px;
   margin-top: 30px;
 }
-
 #spotlight section.container div.left p {
   color: #888398;
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 30px;
 }
-
 #spotlight section.container div.left a.button {
   display: inline-block;
   background-image: linear-gradient(to right, #e45f83, #f67d71, #d473aa);
@@ -206,100 +190,109 @@ header section.head div.right ul li a.button {
   padding: 12px 25px;
   border-radius: 8px;
 }
-
 #spotlight section.container div.right {
   width: 55%;
 }
-
 #spotlight section.container div.right img {
   display: block;
   width: 100%;
 }
+/* #spotlight end */
 
-workking #working {
+/* workking  */
+#working {
 }
-
-#working div.top {
+#working section.wrapper {
+}
+#working section.wrapper div.top {
   text-align: center;
-  padding: 50px 0 100px;
+}
+#working section.wrapper div.top h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#working section.wrapper div.top p {
+  width: 37%;
+  margin: 0 auto;
+}
+#working section.wrapper div.data {
+  padding: 50px;
+  background: url("Assets/how\ it\ work\ -\ path.svg") no-repeat;
+  background-position-x: 151px;
+  background-position-y: 111px;
+  background-size: 78%;
+  display: flex;
+}
+#working section.wrapper div.data div.bottom h5 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+#working section.wrapper div.data div.left {
+  width: 33%;
+  padding-top: 25px;
+}
+#working section.wrapper div.data div.left div.information {
+}
+#working section.wrapper div.data div.left div.information img {
+  display: block;
+  width: 100%;
+}
+#working section.wrapper div.data div.left div.bottom {
+  padding-top: 60px;
+  width: 57%;
+  margin: 0 auto;
+}
+#working section.wrapper div.data div.left div.bottom h5 {
+}
+#working section.wrapper div.data div.left div.bottom p {
+}
+#working div.data div.middle {
+  width: 33%;
+}
+#working div.data div.middle div.Data_Secure {
+}
+#working div.data div.middle div.Data_Secure img {
+  display: block;
+  width: 100%;
+}
+#working div.data div.middle div.bottom {
+  width: 61%;
+  margin: 0 auto;
+}
+#working div.data div.middle div.bottom h5 {
+}
+#working div.data div.middle div.bottom p {
+}
+#working div.data div.right {
+  width: 33%;
   position: relative;
 }
-
-#working div.top h2 {
+#working div.data div.right div.Add_cards {
+  width: 100%;
+  padding-top: 22px;
 }
-
-#working div.top p {
-}
-
-#working div.bottom {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 50px;
-}
-
-#working div.bottom div.left {
-  width: 30%;
-}
-
-#working div.bottom div.left div.information {
-}
-
-#working div.bottom div.left div.information img {
+#working div.data div.right div.Add_cards img {
   display: block;
   width: 100%;
 }
-
-#working div.bottom div.left h5 {
+#working div.data div.right div.bottom {
+  padding-top: 58px;
+  width: 66%;
+  margin: 0 auto;
 }
-
-#working div.bottom div.left p {
+#working div.data div.right div.bottom h5 {
 }
-
-#working div.bottom div.middle {
-  width: 30%;
+#working div.data div.right div.bottom p {
 }
-
-#working div.bottom div.middle div.Data {
+#working div.data div.right div.card {
+  position: absolute;
+  top: 168px;
+  left: 150px;
+  font-size: 21px;
 }
-
-#working div.bottom div.middle div.Data img {
-  display: block;
-  width: 100%;
+#working div.data div.right div.card h6 {
 }
-
-#working div.bottom div.middle h5 {
-}
-
-#working div.bottom div.middle p {
-}
-
-#working div.bottom div.right {
-  width: 30%;
-}
-
-#working div.bottom div.right div.Add {
-}
-
-#working div.bottom div.right div.Add img {
-  display: block;
-  width: 100%;
-}
-
-#working div.bottom div.right h5 {
-}
-
-#working div.bottom div.right p {
-}
-
-#working div.bottom div.right div.card {
-}
-
-#working div.bottom div.right div.card h6 {
-}
-#working div.path {
-}
-#working div.path img {
-}
+/* #working end */
 
 /* #content */
 #content {
@@ -309,30 +302,25 @@ workking #working {
   justify-content: center;
   padding: 50px 103px;
 }
-
 #content section.download div.left {
   width: 55%;
 }
 #content section.download div.left div.image {
   width: 70%;
 }
-
 #content section.download div.left div.image img {
   display: block;
   width: 100%;
 }
-
 #content section.download div.right {
   width: 30%;
   padding-top: 60px;
 }
-
 #content section.download div.right h2 {
   margin-bottom: 20px;
   margin-top: 60px;
   font-size: 45px;
 }
-
 #content section.download div.right p {
   margin-bottom: 50px;
   color: #888398;
@@ -360,35 +348,30 @@ workking #working {
   font-size: 20px;
   margin-left: 20px;
 }
-/* #content */
+/* #content end */
 
 /* #banking */
 #banking {
 }
-
 #banking section.connecting {
   display: flex;
   justify-content: right;
 }
-
 #banking section.connecting div.left {
   padding-top: 60px;
   width: 30%;
   padding-left: 35px;
 }
-
 #banking section.connecting div.left h2 {
   margin-bottom: 20px;
   margin-top: 60px;
   font-size: 45px;
 }
-
 #banking section.connecting div.left p {
   margin-bottom: 50px;
   color: #888398;
   font-size: 16px;
 }
-
 #banking section.connecting div.left a.button {
   display: inline-block;
   border: 3px solid #e45f83;
@@ -396,16 +379,13 @@ workking #working {
   padding: 15px 20px;
   font-weight: bold;
 }
-
 #banking section.connecting div.right {
   width: 55%;
   padding-left: 168px;
 }
-
 #banking section.connecting div.right div.connecting {
   width: 70%;
 }
-
 #banking section.connecting div.right div.connecting img {
   display: block;
   width: 100%;
@@ -425,7 +405,6 @@ workking #working {
 }
 #banking section.main div.bottom form {
   position: relative;
-
 }
 #banking section.main div.bottom form input {
   border: 1px solid #888398;
@@ -445,109 +424,258 @@ workking #working {
   right: 227px;
   top: 6px;
 }
+/* #banking end*/
 
-/* #banking */
-
-
-footer { 
-
+/* footer */
+footer {
+  padding-bottom: 100px;
 }
-
-footer section.wrapper { 
-
+footer section.wrapper {
 }
-
-footer section.platform { 
+footer section.platform {
+  background: #f8f8fa;
+  padding: 100px;
+}
+footer section.platform div.top {
   display: flex;
   justify-content: space-between;
-  background: #F8F8FA;
-  padding: 100px;
-
 }
-
-footer section.platform div.one { 
+footer section.platform div.top div.one {
   width: 20%;
-
 }
-
-footer section.platform div.one div.fastpay {
-
-width: 65%;
+footer section.platform div.top div.one div.fastpay {
+  width: 65%;
 }
-
-footer section.platform div.one div.fastpay img {
-
-display: block;
-
-width: 100%;
+footer section.platform div.top div.one div.fastpay img {
+  display: block;
+  width: 100%;
 }
-
-footer section.platform div.one p {
+footer section.platform div.top div.one p {
   color: #888398;
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-footer section.platform div.one ul { 
+footer section.platform div.top div.one ul {
   display: flex;
-
 }
-
-footer section.platform div.one ul li {
-
-margin-right: 33px;
+footer section.platform div.top div.one ul li {
+  margin-right: 33px;
 }
-
-footer section.platform div.one ul li span { 
-  background: #888398;
-
+footer section.platform div.top div.one ul li:last-child {
+  margin-right: 0;
 }
-
-footer section.platform div.one ul li span img { 
+footer section.platform div.top div.one ul li div.facebook {
+  background: #ececee;
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+footer section.platform div.top div.one ul li div.facebook a {
+}
+footer section.platform div.top div.one ul li div.facebook a img {
   display: block;
   width: 100%;
 }
 
-footer section.platform div.two { 
-
+footer section.platform div.top div.one ul li div.twitter {
+  background: #ececee;
+  padding: 10px;
+  border-radius: 10px;
 }
-
-footer section.platform div.two h4 { 
-  margin-bottom: 10px;
-
+footer section.platform div.top div.one ul li div.twitter a {
 }
-
-footer section.platform div.two h6 { 
-  margin-bottom: 10px;
+footer section.platform div.top div.one ul li div.twitter a img {
+  display: block;
+  width: 100%;
+}
+footer section.platform div.top div.one ul li div.linkedin {
+  background: #ececee;
+  padding: 10px 13px;
+  border-radius: 10px;
+}
+footer section.platform div.top div.one ul li div.linkedin a {
+}
+footer section.platform div.top div.one ul li div.linkedin a img {
+  display: block;
+  width: 100%;
+}
+footer section.platform div.two h4 {
+  margin-bottom: 42px;
+}
+footer section.platform div.two h6 {
+  margin-bottom: 20px;
+}
+footer section.platform div.two h6 a {
   color: #888398;
   font-size: 14px;
-
 }
-footer section.platform div.three { 
-
+footer section.platform div.two h6 a:hover {
+  color: #000;
 }
-footer section.platform div.three h4{
-  margin-bottom: 10px;
-
+footer section.platform div.two h6:last-child {
+  margin-bottom: 0;
 }
-footer section.platform div.three h6 { 
-  margin-bottom: 10px;
+footer section.platform div.three {
+}
+footer section.platform div.three h4 {
+  margin-bottom: 42px;
+}
+footer section.platform div.three h6 {
+  margin-bottom: 20px;
+}
+footer section.platform div.three h6 a {
   color: #888398;
   font-size: 14px;
-
 }
-
-footer section.platform div.four { 
-
+footer section.platform div.three h6 a:hover {
+  color: #000;
 }
-footer section.platform div.four h4{
-  margin-bottom: 10px;
-
+footer section.platform div.three h6:last-child {
+  margin-bottom: 0;
 }
-footer section.platform div.four h6 { 
-  margin-bottom: 10px;
+footer section.platform div.four {
+}
+footer section.platform div.four h4 {
+  margin-bottom: 42px;
+}
+footer section.platform div.four h6 {
+  margin-bottom: 20px;
+}
+footer section.platform div.four h6 a {
   color: #888398;
   font-size: 14px;
+}
+footer section.platform div.four h6 a:hover {
+  color: #000;
+}
+footer section.platform div.four h6:last-child {
+  margin-bottom: 0;
+}
+footer section.platform div.bottom {
+}
+footer section.platform div.bottom p {
+  text-align: center;
+  color: #888398;
+  margin-top: 80px;
+}
+footer section.platform div.bottom p a {
+  color: #888398;
+}
+footer section.platform div.bottom p a:hover {
+  color: #000;
+}
+/* footer end */
 
+/* responsive */
+@media all and (max-width: 1380px) {
+  #spotlight section.container div.left {
+    width: 42%;
+  }
+  #spotlight section.container div.right {
+    width: 58%;
+  }
+  #working section.wrapper div.data {
+    background-position-x: 134px;
+    background-position-y: 108px;
+  }
+  #working div.data div.right div.card {
+    top: 150px;
+    left: 127px;
+    font-size: 19px;
+  }
+  #working section.wrapper div.data div.left div.bottom {
+    padding-top: 49px;
+  }
+  #working div.data div.right div.bottom {
+    padding-top: 48px;
+  }
+  #content section.download div.right {
+    padding-top: 20px;
+  }
+  #content section.download div.right div.store a {
+    padding: 16px 16px;
+  }
+  #banking section.connecting div.left {
+    padding-top: 30px;
+  }
+  #banking section.connecting div.left h2 {
+    font-size: 41px;
+  }
+  #content section.download div.right h2 {
+    font-size: 41px;
+  }
+  #banking section.main div.bottom form a.button {
+    padding: 22px 43px;
+    right: 199px;
+    top: 9px;
+  }
+}
+@media all and (max-width: 1280px) {
+  header section.head ul li a {
+    font-size: 16px;
+  }
+  #spotlight section.container div.left {
+    width: 45%;
+    padding: 75px 60px;
+  }
+  #spotlight section.container div.right {
+    width: 55%;
+  }
+  #spotlight section.container div.left h3 {
+    font-size: 48px;
+  }
+  #working section.wrapper div.top p {
+    width: 45%;
+  }
+  #working section.wrapper div.data {
+    padding: 44px;
+  }
+  #working section.wrapper div.data {
+    background-position-x: 105px;
+    background-position-y: 105px;
+  }
+  #working div.data div.middle {
+    width: 35%;
+  }
+  #working div.data div.right div.card {
+    top: 130px;
+    left: 104px;
+    font-size: 15px;
+  }
+  #working div.data div.right {
+    width: 35%;
+  }
+  #working section.wrapper div.data div.bottom h5 {
+    margin-bottom: 25px;
+    font-size: 27px;
+  }
+  #working section.wrapper div.data div.bottom p {
+    font-size: 13px;
+  }
+  #working div.data div.right div.bottom {
+    padding-top: 37px;
+  }
+  #content section.download div.left {
+    width: 60%;
+  }
+  #content section.download div.right {
+    width: 40%;
+    padding-top: 40px;
+  }
+  #content section.download div.left div.image {
+    width: 80%;
+  }
+  #content section.download div.right p {
+    margin-bottom: 43px;
+    font-size: 14px;
+  }
+  #content section.download div.right div.store a small {
+    font-size: 18px;
+  }
+  #content section.download div.right div.store a div {
+    width: 22%;
+  }
+  #content section.download div.right div.store a {
+    padding: 16px 16px;
+  }
 }
