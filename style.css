@@ -570,6 +570,7 @@ footer section.platform div.bottom p a:hover {
 /* footer end */
 
 /* responsive */
+/* @media all and (max-width: 1380px) */
 @media all and (max-width: 1380px) {
   #spotlight section.container div.left {
     width: 42%;
@@ -613,6 +614,9 @@ footer section.platform div.bottom p a:hover {
     top: 9px;
   }
 }
+/* @media all and (max-width: 1380px) end */
+
+/* @media all and (max-width: 1280px) */
 @media all and (max-width: 1280px) {
   header section.head ul li a {
     font-size: 16px;
@@ -719,6 +723,9 @@ footer section.platform div.bottom p a:hover {
     width: 80%;
   }
 }
+/* @media all and (max-width: 1280px) end*/
+
+/* @media all and (max-width: 1080px) */
 @media all and (max-width: 1080px) {
   header section.head div.middle nav ul li {
     margin-right: 20px;
@@ -752,6 +759,9 @@ footer section.platform div.bottom p a:hover {
     width: 25%;
   }
 }
+/* @media all and (max-width: 1080px) end */
+
+/* @media all and (max-width: 980px) */
 @media all and (max-width: 980px) {
   header section.head div.middle nav {
     display: none;
@@ -803,7 +813,7 @@ footer section.platform div.bottom p a:hover {
     padding-top: 40px;
   }
   #content section.download div.right h2 {
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 30px;
   }
   #content section.download div.right p {
@@ -816,5 +826,164 @@ footer section.platform div.bottom p a:hover {
   #content section.download div.right div.store a {
     padding: 8px 13px;
     border-radius: 17px;
+  }
+  #banking section.connecting div.left {
+    width: 27%;
+  }
+  #banking section.connecting div.left h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  #banking section.connecting div.left p {
+    margin-bottom: 23px;
+    font-size: 10px;
+  }
+  #banking section.connecting div.left a.button {
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 10px 14px;
+  }
+  #banking section.main div.bottom h2 {
+    font-size: 35px;
+  }
+  #banking section.main div.bottom p {
+    margin-bottom: 23px;
+    font-size: 14px;
+  }
+  #banking section.main div.bottom form input {
+    padding: 19px 18px;
+    width: 100%;
+  }
+  #banking section.main div.bottom form a.button {
+    padding: 11px 18px;
+    right: 9px;
+    top: 7px;
+  }
+  footer section.platform div.top div.one {
+    width: 30%;
+  }
+  footer section.platform div.top div.one p {
+    font-size: 13px;
+  }
+  footer section.platform div.two h4 {
+    margin-bottom: 28px;
+  }
+  footer section.platform div.three h4 {
+    margin-bottom: 28px;
+  }
+  footer section.platform div.four h4 {
+    margin-bottom: 28px;
+  }
+  footer section.platform div.two h6 {
+    margin-bottom: 10px;
+  }
+  footer section.platform div.two h6 a {
+    font-size: 12px;
+  }
+  footer section.platform div.three h6 {
+    margin-bottom: 10px;
+  }
+  footer section.platform div.three h6 a {
+    font-size: 12px;
+  }
+  footer section.platform div.four h6 {
+    margin-bottom: 10px;
+  }
+  footer section.platform div.four h6 a {
+    font-size: 12px;
+  }
+  footer section.platform div.bottom p {
+    font-size: 14px;
+  }
+}
+/* @media all and (max-width: 980px) end*/
+
+@media all and (max-width: 768px) {
+  #spotlight section.container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #spotlight section.container div.left {
+    width: 75%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  #spotlight section.container div.right {
+    width: 75%;
+  }
+  #spotlight section.container div.right img {
+    border-radius: 8px;
+  }
+  #working section.wrapper div.top p {
+    width: 65%;
+  }
+  #working section.wrapper div.data {
+    background: none;
+    flex-wrap: wrap;
+    background: #f8f8fa;
+    border-radius: 8px;
+  }
+  #working section.wrapper div.top {
+    padding-bottom: 50px;
+  }
+  #working section.wrapper div.data div.left {
+    width: 100%;
+    display: flex;
+    padding-top: 0px;
+  }
+  #working section.wrapper div.data div.middle {
+    width: 100%;
+    display: flex;
+  }
+  #working section.wrapper div.data div.right {
+    width: 100%;
+    display: flex;
+  }
+  #working section.wrapper div.data div.left div.bottom {
+    padding-top: 35px;
+  }
+  #working section.wrapper div.data div.bottom p {
+    font-size: 14px;
+  }
+  #working div.data div.middle div.bottom {
+    padding-top: 75px;
+    width: 64%;
+  }
+  #working div.data div.right div.Add_cards {
+    padding-top: 0px;
+  }
+  #working div.data div.right div.card {
+    top: 109px;
+    left: 109px;
+    font-size: 16px;
+  }
+  #content section.wrapper {
+    width: 100%;
+  }
+  #content section.download {
+    padding: 65px 70px;
+  }
+  #content section.download div.left div.image {
+    width: 94%;
+  }
+  #content section.download div.right {
+    padding-top: 70px;
+  }
+  #content section.download div.right div.store a {
+    padding: 11px 8px;
+    border-radius: 17px;
+  }
+  #banking section.wrapper {
+    width: 100%;
+  }
+  #banking section.connecting {
+    justify-content: center;
+  }
+  #banking section.connecting div.left {
+    width: 30%;
+  }
+  #banking section.connecting div.right {
+    width: 50%;
+    padding-left: 60px;
   }
 }
