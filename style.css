@@ -1023,6 +1023,9 @@ footer section.platform div.bottom p a:hover {
   header section.head div.right ul li a.button {
     padding: 7px 22px;
   }
+  #spotlight section.wrapper {
+    width: 100%;
+  }
   #spotlight section.container div.left {
     width: 100%;
   }
@@ -1032,8 +1035,11 @@ footer section.platform div.bottom p a:hover {
   #working section.wrapper div.top p {
     width: 92%;
   }
-  div.data div.left div.information {
+  #working section.wrapper div.data div.left div.information {
     width: 60%;
+  }
+  #working section.wrapper {
+    width: 100%;
   }
   #working section.wrapper div.data div.left div.bottom {
     padding-top: 25px;
@@ -1114,6 +1120,9 @@ footer section.platform div.bottom p a:hover {
   footer {
     padding-bottom: 29px;
   }
+  footer section.wrapper {
+    width: 100%;
+  }
   footer section.platform div.top {
     flex-wrap: wrap;
   }
@@ -1155,7 +1164,7 @@ footer section.platform div.bottom p a:hover {
   #spotlight section.container div.left p {
     font-size: 13px;
   }
-  working section.wrapper div.top h2 {
+  #working section.wrapper div.top h2 {
     font-size: 30px;
   }
   #working section.wrapper div.top p {
@@ -1252,7 +1261,7 @@ footer section.platform div.bottom p a:hover {
   }
 }
 @media all and (max-width: 360px) {
-  #working section.wrapper {
+  footer section.wrapper {
     width: 100%;
   }
   #working section.wrapper div.data div.left {
@@ -1282,5 +1291,53 @@ footer section.platform div.bottom p a:hover {
   #working div.data div.middle div.bottom {
     padding-top: 0px;
     width: 76%;
+  }
+  #working div.data div.right div.bottom {
+    padding-top: 0px;
+    width: 75%;
+  }
+  #working div.data div.right div.card {
+    top: 244px;
+    left: 119px;
+    font-size: 16px;
+  }
+  #working section.wrapper div.top p {
+    width: 90%;
+  }
+  #content section.download {
+    flex-wrap: wrap;
+    padding: 30px 20px;
+  }
+  #content section.download div.right h2 {
+    font-size: 20px;
+  }
+  #content section.download div.right p {
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+  #content section.download div.right div.store a small {
+    font-size: 16px;
+  }
+  #banking section.connecting div.right {
+    width: 96%;
+  }
+  #banking section.connecting div.left {
+    padding-left: 0px;
+    width: 65%;
+  }
+  #banking section.connecting div.left h2 {
+    font-size: 20px;
+  }
+  #banking section.connecting div.left p {
+    font-size: 12px;
+  }
+  #banking section.main div.bottom h2 {
+    font-size: 21px;
+  }
+  #banking section.main div.bottom p {
+    font-size: 10px;
+  }
+  #banking section.main div.bottom {
+    padding: 60px 37px;
   }
 }
