@@ -1111,8 +1111,176 @@ footer section.platform div.bottom p a:hover {
     top: 5px;
     font-size: 14px;
   }
+  footer {
+    padding-bottom: 29px;
+  }
   footer section.platform div.top {
     flex-wrap: wrap;
   }
-  
+  footer section.platform {
+    padding: 60px;
+  }
+  footer section.platform div.top div.one {
+    width: 60%;
+  }
+  footer section.platform div.two {
+    width: 27%;
+  }
+  footer section.platform div.three {
+    width: 50%;
+    margin-top: 44px;
+  }
+  footer section.platform div.four {
+    width: 27%;
+    margin-top: 43px;
+  }
+  footer section.platform div.bottom p {
+    font-size: 13px;
+    margin-top: 30px;
+  }
+}
+@media all and (max-width: 480px) {
+  header section.head div.right {
+    display: none;
+  }
+  #spotlight section.container {
+    padding-bottom: 30px;
+  }
+  #spotlight section.container div.left {
+    padding: 30px;
+  }
+  #spotlight section.container div.left h3 {
+    font-size: 24px;
+  }
+  #spotlight section.container div.left p {
+    font-size: 13px;
+  }
+  working section.wrapper div.top h2 {
+    font-size: 30px;
+  }
+  #working section.wrapper div.top p {
+    width: 100%;
+    font-size: 12px;
+  }
+  #working section.wrapper div.data {
+    padding: 0px 20px;
+  }
+  #working section.wrapper div.data div.bottom h5 {
+    font-size: 15px;
+  }
+  #working section.wrapper div.data div.bottom p {
+    font-size: 10px;
+  }
+  #working div.data div.right div.Add_cards {
+    width: 100%;
+  }
+  #working section.wrapper div.data div.right div.bottom p {
+    margin-left: 15px;
+  }
+  #working section.wrapper div.data div.right div.bottom h5 {
+    margin-left: 15px;
+  }
+  #working div.data div.right div.card {
+    top: 64px;
+    left: 61px;
+    font-size: 10px;
+  }
+  #content section.download {
+    flex-wrap: wrap;
+    padding: 30px 70px;
+  }
+  #content section.download div.left {
+    width: 100%;
+  }
+  #content section.download div.right {
+    width: 80%;
+    margin-left: 20px;
+  }
+  #content section.download div.right div.store a {
+    padding: 9px 13px;
+  }
+  #banking section.connecting {
+    flex-wrap: wrap-reverse;
+  }
+  #banking section.connecting div.left {
+    padding-top: 0px;
+    padding-left: 25px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  #banking section.connecting div.left a.button {
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+  #banking section.connecting div.right {
+    width: 72%;
+    padding-left: 45px;
+  }
+  #banking section.connecting div.right div.connecting {
+    width: 93%;
+  }
+  #banking section.main div.bottom {
+    padding: 37px;
+  }
+  #banking section.main div.bottom p {
+    font-size: 11px;
+  }
+  #banking section.main div.bottom form a.button {
+    padding: 8px 11px;
+    right: 5px;
+    top: 4px;
+    font-size: 13px;
+  }
+  footer section.platform div.top div.one {
+    width: 100%;
+  }
+  footer section.platform div.top div.two {
+    width: 50%;
+    margin-top: 49px;
+  }
+  footer section.platform {
+    padding: 30px;
+  }
+  footer section.platform div.top div.one ul {
+    justify-content: center;
+  }
+  footer section.platform div.top div.one p {
+    text-align: center;
+  }
+  footer section.platform div.top div.one div.fastpay {
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 360px) {
+  #working section.wrapper {
+    width: 100%;
+  }
+  #working section.wrapper div.data div.left {
+    flex-wrap: wrap-reverse;
+  }
+  #working section.wrapper div.data div.left div.information {
+    width: 100%;
+  }
+  #working section.wrapper div.data div.middle {
+    flex-wrap: wrap-reverse;
+  }
+  #working section.wrapper div.data div.right {
+    flex-wrap: wrap-reverse;
+  }
+  #working section.wrapper div.data {
+    padding: 0;
+  }
+  #working section.wrapper div.data div.bottom h5 {
+    font-size: 25px;
+  }
+  #working section.wrapper div.data div.bottom p {
+    font-size: 16px;
+  }
+  #working section.wrapper div.data div.left div.bottom {
+    width: 75%;
+  }
+  #working div.data div.middle div.bottom {
+    padding-top: 0px;
+    width: 76%;
+  }
 }
