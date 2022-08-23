@@ -869,7 +869,7 @@ footer section.platform div.bottom p a:hover {
     font-size: 13px;
   }
   footer section.platform div.two h4 {
-    margin-bottom: 28px;
+    margin-bottom: 23px;
   }
   footer section.platform div.three h4 {
     margin-bottom: 28px;
@@ -881,19 +881,20 @@ footer section.platform div.bottom p a:hover {
     margin-bottom: 10px;
   }
   footer section.platform div.two h6 a {
-    font-size: 12px;
+    font-size: 10px;
   }
   footer section.platform div.three h6 {
     margin-bottom: 10px;
+    font-size: 4px;
   }
   footer section.platform div.three h6 a {
-    font-size: 12px;
+    font-size: 10px;
   }
   footer section.platform div.four h6 {
     margin-bottom: 10px;
   }
   footer section.platform div.four h6 a {
-    font-size: 12px;
+    font-size: 10px;
   }
   footer section.platform div.bottom p {
     font-size: 14px;
@@ -1051,7 +1052,7 @@ footer section.platform div.bottom p a:hover {
   }
   #working section.wrapper div.data div.left div.bottom {
     padding-top: 25px;
-    width: 40%;
+    width: 32%;
   }
   #working section.wrapper div.data div.bottom h5 {
     margin-bottom: 12px;
@@ -1144,11 +1145,11 @@ footer section.platform div.bottom p a:hover {
     width: 27%;
   }
   footer section.platform div.three {
-    width: 50%;
+    width: 33%;
     margin-top: 44px;
   }
   footer section.platform div.four {
-    width: 27%;
+    width: 26%;
     margin-top: 43px;
   }
   footer section.platform div.bottom p {
@@ -1202,8 +1203,8 @@ footer section.platform div.bottom p a:hover {
     margin-left: 15px;
   }
   #working div.data div.right div.card {
-    top: 64px;
-    left: 61px;
+    top: 72px;
+    left: 71px;
     font-size: 10px;
   }
   #content section.download {
@@ -1256,8 +1257,8 @@ footer section.platform div.bottom p a:hover {
     width: 100%;
   }
   footer section.platform div.top div.two {
-    width: 50%;
-    margin-top: 49px;
+    width: 33%;
+    margin-top: 47px;
   }
   footer section.platform {
     padding: 30px;
